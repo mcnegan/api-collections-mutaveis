@@ -7,7 +7,7 @@ data class Funcionario(
 )
 fun main() {
     val joao = Funcionario("João", 1800.0, "CLT")
-    val mauricio = Funcionario("Mauricio", 1212.0, "PJ") // Instancias
+    val pedro = Funcionario("Pedro", 1212.0, "PJ") // Instancias
     val maria = Funcionario("Maria", 1550.0, "CLT")
 
     val funcionarios = mutableListOf(joao, maria)
